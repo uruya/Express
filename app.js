@@ -45,7 +45,7 @@ app.use(session({
   cookie: {
     secure: IS_PRODUCTION
   },
-  secret: appconfig.secutirty.SESSION_SECRET,
+  secret: appconfig.security.SESSION_SECRET,
   resave: false,
   saveUninitialized: true,
   name: "sid"
